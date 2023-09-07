@@ -32,3 +32,8 @@ tracking은 모든 프레임에서 진행하고, mapping은 주요 키프레임�
 ●키프레임: 비디오를 압축할 때 전체 이미지가 저장되는 프레임, 비디오의 모든 장면을 저장하면 용량이 너무 커지기 때문에
 일정 시간 간격으로 전체이미지를 저장하고 그 사이는 변화된 값만 저장하는데 전체이미지를 저장하는 프레임을 
 키프레임이라고 한다. 
+
+
+
+그리고 Datasets으로는 [ UZH-FPV Drone Racing / RPG-event / Zurich Urban MAV / EuRoc / Solar-UAV / ASRL-Kagara-airborn ] 등이 있는데, Visual SLAM 의 테스트에는 EuRoc가 자주 사용됩니다. 아마 IMU, mono, stereo 정보 모두 가지고 있기 때문으로 보입니다.
+"A Benchmark Comparison of Monocular Visual-Inertial Odometry Algorithms for Flying Robots" 논문을 참고하시면 드론에 어떠한 SLAM 방식을 적용해야 적합할지 결정하는데 도움이 되실 것 같습니다.
